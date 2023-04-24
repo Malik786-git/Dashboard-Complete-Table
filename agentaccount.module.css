@@ -1,0 +1,104 @@
+.dpage_location_heading {
+  font-size: 30px;
+}
+
+.dpage_location_heading_small {
+  font-size: 20px;
+  height: 100%;
+  color: black;
+}
+
+.page_table_wrapper {
+  border: 1px solid var(--primary-color);
+}
+
+.page_table_wrapper h2 {
+  padding-left: 10px;
+  background-color: var(--primary-color);
+  color: white;
+  margin-bottom: 0px;
+  font-size: 18px;
+}
+
+.table_results_filter {
+  height: 60px;
+  padding: 15px 10px;
+  background: rgb(241, 238, 238);
+}
+
+.records_view h6 {
+  line-height: 30px;
+  color: var(--text-dark);
+}
+
+.table_search_bar label {
+  line-height: 30px;
+  color: var(--text-dark);
+}
+
+.table_search_bar input {
+  height: 90%;
+  outline: none;
+  border: none;
+}
+
+/* Table list */
+
+.table_container table {
+  width: 100%;
+}
+
+.table_container table thead tr th {
+  border: 1px solid rgb(233, 226, 226);
+  padding: 5px;
+  background-image: linear-gradient(rgb(241, 238, 238), rgb(221, 215, 215));
+  color: var(--text-dark);
+}
+
+.table_container table tbody tr td {
+  border: 1px solid rgb(233, 226, 226);
+  padding: 7px;
+  font-size: 14px;
+  color: rgb(73, 73, 73);
+}
+
+.table_container table tbody tr:nth-child(even) {
+  background: #f1eeee;
+}
+
+/* pagination */
+
+.pagination_container {
+  height: 50px;
+}
+
+.showing_numbers span {
+  line-height: 50px;
+  font-size: 14px;
+}
+
+.table_pagination nav ul li a {
+  color: var(--text-dark) !important;
+}
+
+.table_update_btn, .table_delete_btn{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.table_delete_btn:hover{
+    color: red;
+}
+
+.table_update_btn:hover{
+    color: green;
+}
+
+
+.pagination_component{
+  list-style: none;
+  display: flex;
+}
+.pagination_component li{
+  margin: 10px;
+}
